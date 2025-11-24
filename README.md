@@ -2,7 +2,6 @@
 ## Exp 4: Design an Infrared remote control circuit using Eagle software
 ## AIM:
 To design the schematic and PCB layout diagram of an Infrared remote control circuit using Eagle software.
-
 ## EQUIPMENT REQUIRED:
 ●	Hardware: Personal Computer (PC)<br>
 ●	Software: Eagle <br>
@@ -33,7 +32,6 @@ o	Go to File > CAM Processor and configure the CAM jobs to generate Gerber files
 o	Verify the generated files to ensure they contain all necessary information for manufacturing.<br>
 	Save Manufacturing Files:<br>
 o	Save the Gerber files and any other required manufacturing files to send to your PCB manufacturer for fabrication.<br>
-
 ## THEORY:
 The Infrared Remote Control Switch is a simple electronic circuit that uses an infrared (IR) receiver to detect signals from a standard TV remote and control an electrical load, such as a lamp or appliance, through a relay. At the heart of the circuit lies the CD4027 IC, which is a dual JK flip-flop. JK flip-flops are bistable multivibrators capable of storing one bit of data and toggling their state with every pulse input. In this circuit, the TSOP1738 IR receiver module is used to detect IR pulses sent by a remote control. The TSOP1738 is designed to receive 38kHz modulated infrared signals and output a demodulated digital signal that can be read by a microcontroller or logic circuit. The 2N4403 PNP transistor is used to amplify and condition the signal from the TSOP1738, ensuring a reliable trigger for the flip-flop. This type of system demonstrates the fundamental concept of remote-controlled electronics using modulated IR signals, logic circuitry, and electromechanical switching components like relays.
 ### Working:
@@ -42,15 +40,12 @@ When a button on the IR remote is pressed, it sends a modulated 38kHz IR signal 
 ![image](https://github.com/user-attachments/assets/3e488286-ea7d-4a9b-a057-02a31fdf4430)
 
 ## EXPECTED OUTPUT:
-
 ### Schematic diagram
+ ![WhatsApp Image 2025-09-28 at 12 38 11_f0319f1c](https://github.com/user-attachments/assets/2750fff5-49c5-496e-9873-5768e21cd46b)
 
-<img width="1041" height="527" alt="image" src="https://github.com/user-attachments/assets/ad620ca9-f288-4912-a85e-24ea29253adf" />
- 
 ### Layout diagram
+ <img width="954" height="637" alt="image" src="https://github.com/user-attachments/assets/e2104e24-12dc-421f-ad17-00ce03d8582d" />
 
-<img width="1041" height="477" alt="image" src="https://github.com/user-attachments/assets/26218245-73e7-481f-9de1-fd2a0e7e544b" />
- 
 ## RESULT:
-
 Thus, the schematic and PCB layout for the Infrared remote control circuit has been successfully designed using Eagle software.
+
